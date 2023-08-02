@@ -1,5 +1,3 @@
-# Receipt_Matching_DS_Challenge
-
 # Model Development Approach 
 Please refer to "Receipt_Matching_DS_Challenge_Model_Development.ipynb" for development code
 
