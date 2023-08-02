@@ -8,7 +8,7 @@ Please refer to "Receipt_Matching_DS_Challenge_Model_Development.ipynb" for deve
 4. Multicollinearity check
 5. EDA (Bivariate - woe and event rate)
 6. Dropped the variables 'DifferentPredictedDate', 'DifferentPredictedTime' and'DateMappingMatch' on the basis of points 2,3 and 4. Kept only 'DateMappingMatch', 'AmountMappingMatch', 'DescriptionMatch', 'TimeMappingMatch', 'PredictedNameMatch', 'ShortNameMatch', 'PredictedAmountMatch', 'PredictedTimeCloseMatch'
-7. Train-Test (30%) split
+7. Train-Test (70:30) split
 8. As it was a rare event model or data had a class imbalance I applied SMOTE/Oversampling technique on Train data
 9. Build mutiple models with hyperparameter tuning (grid search CV) using different algo's - Logistic Regression, Random forest,  Gradient Boosting, SVM, KNN, SVM and ANN
 10. Tested each of the models performance on "Test" (unbiased original sample)
