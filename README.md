@@ -3,7 +3,7 @@
 # Model Development
 ## Steps:- 
 1. Model Development
-2. 2. Correlation Check
+2. Correlation Check
 3. Multicollinearity check
 4. EDA (Bivariate - woe and event rate)
 5. Train-Test (30%) split
