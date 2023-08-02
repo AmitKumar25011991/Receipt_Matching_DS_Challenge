@@ -52,7 +52,7 @@ Please run "Model_Scoring.py". On running using command "python Model_Scoring.py
 2. PredictedNameMatch (% match is higher may lead to higher receipt match), TimeMappingMatch and PredictedTimeCloseMatch have middling ore moderate importance indicating significant portion of the distribution has an impact on receipt matching
 
 # Recommendations to improve results
-1. If possible/available, please capture more variables like type of trasaction etc.. These are all trasaction related variables which will help us match transactions basis their values
+1. If possible/available, please capture more variables like type of trasaction etc.. These are all trasaction related variables which will help us match transactions basis their values.
 These discriptors regarding transactions can be extracted using 'OCR' techniques
 2. Please bring more gradation in confidence scores as currently the cofidence scores are concetrated which might lead to overfitting
 3. Elemenmts in the image: If no of elements present in the receipts are captured are used for matching the transactions. This can turn out be an important indicator
