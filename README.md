@@ -1,6 +1,8 @@
 # Receipt_Matching_DS_Challenge
 
-# Model Development Approach (Please refer to "Receipt_Matching_DS_Challenge_Model_Development.ipynb" for development code)
+# Model Development Approach 
+Please refer to "Receipt_Matching_DS_Challenge_Model_Development.ipynb" for development code
+
 ## Steps:- 
 1. Data loading
 2. Flag creation and Event rate check (~7.12%)
@@ -14,8 +16,9 @@
 10. Tested each of the models performance on "Test" (unbiased original sample)
 11. Random forest outperformed all other models with best performance with ROC of 81 (Note: Please do not test your model on a sample taken out of oversampled data as it will lead to misleading results. Our models should always be tested on original/unbiased/untouched test set as this set best represents the real time data)
 
-{'max_depth': 7, 'max_features': 4, 'n_estimators': 99}
 ROC Value:  0.8103408671683036
+
+
               precision    recall  f1-score   support
 
            0       0.97      0.90      0.93      3354
@@ -24,6 +27,8 @@ ROC Value:  0.8103408671683036
     accuracy                           0.88      3611
    macro avg       0.66      0.79      0.69      3611
 weighted avg       0.93      0.88      0.90      3611
+
+
 
 ![image](https://github.com/AmitKumar25011991/Receipt_Matching_DS_Challenge/assets/141259189/6dece655-34f7-475f-abb1-7c1d5ae01d2d)
 
