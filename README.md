@@ -48,12 +48,16 @@ I have created a file "Model_Scoring.py" which takes an "csv" input from "Input"
 Please run "Model_Scoring.py". On running using command "python Model_Scoring.py", it will automatically pick the file from the input folder and save the scored file "Scored.csv" in putput folder
 
 # Observations from model results
-1. ShortNameMatch (increase in value leads to increase in event rate) and DiscriptionMatch (increase in value leads to increase in event rate) turned out be most important variables as is evident from "woe" and "event rate" graphs in EDA
-2. AmountMappingMatch and PredictedAmountMatch are least important variables. That means only a part of distribution of these variables has a significant impact on receipt matching. 
-3. PredictedNameMatch, TimeMappingMatch and PredictedTimeCloseMatch have middling ore moderate importance indicating significant portion of the distribution has an impact on receipt matching
+1. ShortNameMatch (if short name matches or have higher % then most likely receipt matches) and DiscriptionMatch (Higher the values/percentage match, higher the chnace of receipt matching) turned out be most important variables as is evident from "woe" and "event rate" graphs in EDA
+2. PredictedNameMatch (% match is higher may lead to higher receipt match), TimeMappingMatch and PredictedTimeCloseMatch have middling ore moderate importance indicating significant portion of the distribution has an impact on receipt matching
 
 # Recommendations to improve results
-1. 
+1. If possible/available, please capture more variables like type of trasaction etc.. These are all trasaction related variables which will help us match transactions basis their values
+These discriptors regarding transactions can be extracted using 'OCR' techniques
+2. Please bring more gradation in confidence scores as currently the cofidence scores are concetrated which might lead to overfitting
+3. Elemenmts in the image: If no of elements present in the receipts are captured are used for matching the transactions. This can turn out be an important indicator
+4. Please capture more variation of receipts, may be across departmets to help bring in variation in the data to prevent the algorithm from genralizing
+
 
 
 
