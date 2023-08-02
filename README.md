@@ -19,14 +19,17 @@ Please refer to "Receipt_Matching_DS_Challenge_Model_Development.ipynb" for deve
 ROC Value:  0.8103408671683036
 
 
-              precision    recall  f1-score   support
-
-           0       0.97      0.90      0.93      3354
-           1       0.34      0.68      0.45       257
-
-    accuracy                           0.88      3611
-   macro avg       0.66      0.79      0.69      3611
-weighted avg       0.93      0.88      0.90      3611
+                      precision    recall  f1-score   support
+        
+                   0       0.97      0.90      0.93      3354
+                   1       0.34      0.68      0.45       257
+        
+        
+        
+            accuracy                           0.88      3611
+           macro avg       0.66      0.79      0.69      3611
+        weighted avg       0.93      0.88      0.90      3611
+        
 
 
 
