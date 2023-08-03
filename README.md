@@ -33,7 +33,7 @@ ROC Value:  0.8103408671683036
 
 ![image](https://github.com/AmitKumar25011991/Receipt_Matching_DS_Challenge/assets/141259189/6dece655-34f7-475f-abb1-7c1d5ae01d2d)
 
-12.Importance is plotted. Importance plot shows good linear trend i.e., our model doesn't give undue or lot of importance of 1 or 2 variables in data. It relies on mutiple variables for performance thus avoiding generalization.
+12. Importance is plotted. Importance plot shows good linear trend i.e., our model doesn't give undue or lot of importance of 1 or 2 variables in data. It relies on mutiple variables for performance thus avoiding generalization.
 
 ![image](https://github.com/AmitKumar25011991/Receipt_Matching_DS_Challenge/assets/141259189/d815ddb8-9285-4e77-b64d-3e62e6db7728)
 
