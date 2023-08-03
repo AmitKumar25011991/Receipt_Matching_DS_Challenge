@@ -43,7 +43,7 @@ ROC Value:  0.8103408671683036
 I have created a file "Model_Scoring.py" which takes an "csv" input from "Input" folder, scores the transactions, sorts them basis scores or probabilities (with receipts having highest scores on top) and generates an output file "Scored.csv" which gets saved/stored in "Output" folder.
 
 # How to run scoring file
-Please run "Model_Scoring.py". On running using command "python Model_Scoring.py", it will automatically pick the file from the input folder and save the scored file "Scored.csv" in putput folder
+Please run "Model_Scoring.py". On running using command "python Model_Scoring.py", it will automatically pick the file from the input folder and save the scored file "Scored.csv" in output folder
 
 # Observations from model results
 1. ShortNameMatch (if short name matches or have higher % then most likely receipt matches) and DiscriptionMatch (Higher the values/percentage match, higher the chnace of receipt matching) turned out be most important variables as is evident from "woe" and "event rate" graphs in EDA
